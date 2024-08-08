@@ -101,6 +101,7 @@
   justify-content: center;
   gap: 100px;
   list-style-type: none;
+  border: none;
 }
 
 .recipes {
@@ -123,4 +124,8 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+}
+
+iframe {
+  border: none;
 }
