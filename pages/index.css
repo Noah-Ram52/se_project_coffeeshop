@@ -1,22 +1,7 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header {
-  padding: 30px 80px 40px;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  background-image: url(../images/background_header.svg);
-  box-sizing: border-box;
-  position: relative;
-  background-size: cover;
-}
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/form.css);
+@import url(../blocks/menupluscard.css);
 
 .nav {
   display: flex;
@@ -48,56 +33,6 @@
 .nav__logo {
   position: relative;
   left: -50px;
-}
-
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
-}
-
-.header__title {
-  margin-top: 183px;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
-  max-width: 729px;
-  margin-bottom: 0;
-}
-
-.header__description {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 28px;
-  max-width: 683px;
-  margin-bottom: 0;
-}
-
-.header__span-accent {
-  color: #3f96f3;
-  display: block;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-}
-
-.header__paragraph {
-  margin-top: auto;
-  margin-bottom: initial;
-}
-
-.header__footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
 }
 
 .recipes__videos {
@@ -154,48 +89,23 @@ iframe {
   margin: 0 auto;
 }
 
-.form {
-  max-width: 385px;
+.about {
+  background-color: #0a2850;
 }
 
-.form__fieldset {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-.form__input {
-  display: block;
-  width: 100%;
-  padding: 15px 20px;
-  box-sizing: border-box;
-  margin: 8px 0 32px;
-  border: 1px solid #838383;
-  border-radius: 4px;
-}
-
-.form__button {
-  width: 100%;
-  border: none;
-  padding: 20px;
-  margin-bottom: 32px;
-  background-color: #1878dc;
-  color: #fff;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.form_checkbox {
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-}
-
-.form__label_type_checkbox {
+.about__content {
   display: flex;
-  gap: 12px;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.about__title {
+  margin: 100px 0 0 80px;
+  color: #fff;
+  max-width: 251px;
+}
+
+.about__paragraph {
+  margin: 119px 80px 173px 0;
+  color: #fff;
+  max-width: 660px;
 }
