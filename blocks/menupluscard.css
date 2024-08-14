@@ -3,6 +3,7 @@
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
+  z-index: 2;
 }
 
 .menu__title {
@@ -70,4 +71,23 @@
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0%;
+  }
+}
+
+.about__ciricle_animation_blurred {
+  animation: pulsate ease-in-out 1.3s infinite alternate;
 }

@@ -2,6 +2,8 @@
 @import url(../blocks/header.css);
 @import url(../blocks/form.css);
 @import url(../blocks/menupluscard.css);
+@import url(../blocks/about.css);
+@import url(../blocks/footer.css);
 
 .nav {
   display: flex;
@@ -33,6 +35,16 @@
 .nav__logo {
   position: relative;
   left: -50px;
+}
+
+@keyframes nav-opacity {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 50%;
+  }
 }
 
 .recipes__videos {
@@ -87,25 +99,4 @@ iframe {
 
 .reservation__form {
   margin: 0 auto;
-}
-
-.about {
-  background-color: #0a2850;
-}
-
-.about__content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about__title {
-  margin: 100px 0 0 80px;
-  color: #fff;
-  max-width: 251px;
-}
-
-.about__paragraph {
-  margin: 119px 80px 173px 0;
-  color: #fff;
-  max-width: 660px;
 }
