@@ -43,3 +43,22 @@
   top: -152px;
   left: -129px;
 }
+
+.about__ciricle_animation_blurred {
+  animation: pulsate ease-in-out 1.3s infinite alternate;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0%;
+  }
+}

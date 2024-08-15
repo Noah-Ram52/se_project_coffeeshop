@@ -1,102 +1,10 @@
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/form.css);
-@import url(../blocks/menupluscard.css);
+@import url(../blocks/menu.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__links {
-  display: flex;
-  list-style-type: none;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__link {
-  text-decoration: none;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000;
-}
-
-.nav__link:hover {
-  box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.5);
-}
-
-.nav__logo {
-  position: relative;
-  left: -50px;
-}
-
-@keyframes nav-opacity {
-  from {
-    opacity: 100%;
-  }
-
-  to {
-    opacity: 50%;
-  }
-}
-
-.recipes__videos {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  list-style-type: none;
-  border: none;
-}
-
-.recipes {
-  color: #fff;
-  background-color: #0a2750;
-  padding: 100px 80px 215px;
-  background-image: url(../images/background_recipes.svg);
-}
-
-.recipes__title {
-  margin: 0 0 24px;
-}
-
-.recipes__subtitle {
-  margin: 0 0 80px;
-  max-width: 438px;
-  display: flex;
-}
-
-.recipes__video-caption {
-  display: flex;
-  justify-content: space-between;
-}
-
-iframe {
-  border: none;
-}
-
-.reservation {
-  padding: 100px 0 120px;
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-}
-
-.reservation__title {
-  margin: 0 0 80px;
-  text-align: center;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
-.reservation__form {
-  margin: 0 auto;
-}
+@import url(../blocks/card.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);

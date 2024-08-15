@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.nav__link:hover {
+  box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+}
+
+@keyframes nav-opacity {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 50%;
+  }
+}
