@@ -22,10 +22,12 @@
 }
 
 .nav__link:hover {
-  box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.5);
+  color: #2f80ed;
 }
 
 .nav__logo {
+  height: 39px;
+  width: 105px;
   position: relative;
   left: -50px;
 }

@@ -3,7 +3,10 @@
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
-  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 11;
 }
 
 .menu__title {
@@ -24,6 +27,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 438px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__cards {
