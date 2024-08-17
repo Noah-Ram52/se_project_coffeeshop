@@ -21,7 +21,7 @@
 }
 
 .footer__list-item:last-of-type {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .footer__social-media {
@@ -67,4 +67,9 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
 }
